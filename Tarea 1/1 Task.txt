@@ -1,0 +1,9 @@
+Del siguiente enunciado ir haciendo solo lo que vimos en la clase... el resto lo terminamos la clase que viene:
+
+1. Importar el archivo nba.csv adjunto en un programa de python.
+2. Modificar el campo nombre por jugador e imprimir el dataframe.
+3. Imprimirle un mensaje al usuario en el que se le pida que indique que desea hacer: Ver todos los jugadores, ver detalle por jugador,  ver el puntaje general o graficar
+4. Si desea ver los jugadores, imprimirle solo los nombres de los jugadores.
+5. Si desea ver detalle, pedirle el nombre del jugador y mostrarle todos sus datos.
+6. Si desea ver el puntaje general, calcular la madia de los puntos de los jugadores.
+7. Si quiere graficar, mostrarle el gráfico de puntos por jugador en una tamaño de 10x10 color verde con los textos indicativos.
