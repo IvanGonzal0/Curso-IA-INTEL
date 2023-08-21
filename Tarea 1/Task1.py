@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('nba.csv')
 
 # Modificar el campo 'nombre' por 'jugador' e imprimir el df
-df.rename(columns={'nombre': 'jugador'}, inplace=True)
 
+df.rename(columns={'nombre': 'jugador'}, inplace=True)
 print(df)
 
 # Pedir la acción al usuario
@@ -17,13 +17,14 @@ print("3. Ver el puntaje general")
 print("4. Graficar")
 opcion = int(input("Ingresa el número de la opción deseada: "))
 
-# Ver todos los jugadores
+# Ver todos los jugadores // to do ver ()
 if opcion == 1:
     nombres_jugadores = df['jugador']   #creo un dataset con los nombres de los jugadores
     print("Nombres de los jugadores:")
     print(nombres_jugadores)            #printeo el dataset que arme solamente con el nombre de jugadores
 
-# Ver detalle por jugador
+# Ver detalle por jugador //todo detallar()
+
 elif opcion == 2:
     nombre_jugador = input("Ingresa el nombre del jugador: ")   #input para el usuario
     jugador_info = df[df['jugador'] == nombre_jugador]          #busco en el df en la columna jugador los valores que sean == a lo que ingresa el usuario
