@@ -44,10 +44,9 @@ def seleccionar():
     print(f'Los seleccionados son: {seleccionados}')
 
 
-#vacio la lista individuos de nuevo
 
 def heredar():
-    global individuos
+    global individuos   #declaro la variable global para volver a utilizarla
     individuos=[]
     
     for i in range(poblacion):
@@ -65,10 +64,6 @@ for i in range(generaciones-1):
 
     seleccionar()
     heredar()
-
-
-
-
 
 if seleccionados[0][3] > seleccionados[1][3]:
     print("El mejor individuo es: ", seleccionados[0])
